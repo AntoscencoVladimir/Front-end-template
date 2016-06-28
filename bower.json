@@ -1,0 +1,52 @@
+{
+  "name": "sailing",
+  "description": "Front-ens template",
+  "main": "gulpfile.js",
+  "authors": [
+    "Antoscenco Vladimir"
+  ],
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "jquery": "1.11.2",
+    "respond": "^1.4.2"
+  },
+  "overrides": {
+    "html5shiv": {
+      "main": [
+        "dist/html5shiv.min.js",
+        "dist/html5shiv-printshiv.min.js"
+      ]
+    },
+    "respond": {
+      "main": [
+        "dest/respond.min.js"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js"
+      ]
+    }
+  },
+  "group": {
+    "bower_no_concat": [
+      "html5shiv",
+      "respond"
+    ],
+    "bower_libs": [
+      "jquery"
+    ]
+  },
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "superfish": "^1.7.9"
+  }
+}

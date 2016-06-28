@@ -1,0 +1,159 @@
+@import "core/_base.sass"
+
+
+/*==========  Desktop First Method  ==========*/
+
+//Initial BreakPoints ------------------------------->
+
+/* Extra Large Devices */
+$extra_large: new-breakpoint(min-width 1280px)
+
+/* Large Devices, Wide Screens */
+$large: new-breakpoint(min-width 1024px max-width 1280px)
+
+/* Medium Devices, Desktops */
+$medium: new-breakpoint(min-width 768px max-width 1024px)
+
+/* Small Devices, mediums */
+$small: new-breakpoint(min-width 480px max-width 768px)
+
+/* Extra Small Devices, Phones */
+$phones: new-breakpoint(min-width 320px max-width 480px)
+
+/* Custom, iPhone Retina */
+$retina: new-breakpoint(max-width 320px)
+
+//End Initial BreakPoints -------------------------<
+
+
+
+
+/*-------------------- Extra Large Devices (min-width 1280px) --------------------------------*/
+
+@include media($extra_large)
+
+
+
+
+/*-------------------- End Extra Large Devices (min-width 1280px) ----------------------------*/
+
+
+
+
+
+/*-------------------- Large Devices, Wide Screen (min-width 1024px max-width 1280px)---------*/
+
+@include media($large)
+
+
+/*-------------------- End Large Devices, Wide Screen ----------------------------------------*/
+
+
+
+
+
+/*-------------------- Medium Devices, Desktops (min-width 768px max-width 1024px) -----------*/
+
+@include media($medium)
+
+
+/*-------------------- End Medium Devices, Desktops ------------------------------------------*/
+
+
+
+
+
+/*-------------------- Small Devices, mediums (min-width 480px max-width 768px) --------------*/
+
+@include media($small)
+
+  /*Disable Animation on Mobile Devices*/
+  .animated
+    /*CSS transitions*/
+    -o-transition-property: none !important
+    -moz-transition-property: none !important
+    -ms-transition-property: none !important
+    -webkit-transition-property: none !important
+    transition-property: none !important
+    /*CSS transforms*/
+    -o-transform: none !important
+    -moz-transform: none !important
+    -ms-transform: none !important
+    -webkit-transform: none !important
+    transform: none !important
+    /*CSS animations*/
+    -webkit-animation: none !important
+    -moz-animation: none !important
+    -o-animation: none !important
+    -ms-animation: none !important
+    animation: none !important
+
+
+
+/*-------------------- End Small Devices, mediums --------------------------------------------*/
+
+
+
+
+
+/*------------------- Extra Small Devices, Phones (min-width 320px max-width 480px) ----------*/
+
+@include media($phones)
+
+  /*Disable Animation on Mobile Devices*/
+  .animated
+    /*CSS transitions*/
+    -o-transition-property: none !important
+    -moz-transition-property: none !important
+    -ms-transition-property: none !important
+    -webkit-transition-property: none !important
+    transition-property: none !important
+    /*CSS transforms*/
+    -o-transform: none !important
+    -moz-transform: none !important
+    -ms-transform: none !important
+    -webkit-transform: none !important
+    transform: none !important
+    /*CSS animations*/
+    -webkit-animation: none !important
+    -moz-animation: none !important
+    -o-animation: none !important
+    -ms-animation: none !important
+    animation: none !important
+
+
+/*------------------- End Extra Small Devices, Phones ----------------------------------------*/
+
+
+
+
+
+/*------------------- Custom, iPhone Retina (max-width 320px) -------------------------------*/
+
+@include media($retina)
+
+  /*Disable Animation on Mobile Devices*/
+  .animated
+    /*CSS transitions*/
+    -o-transition-property: none !important
+    -moz-transition-property: none !important
+    -ms-transition-property: none !important
+    -webkit-transition-property: none !important
+    transition-property: none !important
+    /*CSS transforms*/
+    -o-transform: none !important
+    -moz-transform: none !important
+    -ms-transform: none !important
+    -webkit-transform: none !important
+    transform: none !important
+    /*CSS animations*/
+    -webkit-animation: none !important
+    -moz-animation: none !important
+    -o-animation: none !important
+    -ms-animation: none !important
+    animation: none !important
+
+
+
+/*------------------- End Custom, iPhone Retina --------------------------------------------*/
+

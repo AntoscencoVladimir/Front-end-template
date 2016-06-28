@@ -1,0 +1,41 @@
+{
+  "name": "BaseTemplate",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower-normalize": "^1.0.6",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-order": "^1.1.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.8",
+    "imagemin-pngquant": "^5.0.0",
+    "main-bower-files": "^2.13.1",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2",
+    "node-notifier": "^4.6.0",
+    "postcss-assets": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/antoscencovladimir/sailing.git"
+  },
+  "author": "Antoscenco Vladimir",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/antoscencovladimir/sailing#readme",
+  "description": ""
+}
