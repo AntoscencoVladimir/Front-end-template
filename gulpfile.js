@@ -180,7 +180,6 @@ gulp.task('main', function () {
     gulp.watch("app/css/**/*.css").on('change', browserSync.reload);
     gulp.watch("app/index.html").on('change', browserSync.reload);
     gulp.watch("app/js/main.min.js").on('change', browserSync.reload);
-    gulp.watch("app/img/**/*", ['images-watch']).on('change', browserSync.reload);
 
 
     gulp.watch("sass/*.sass", ['styles']);
